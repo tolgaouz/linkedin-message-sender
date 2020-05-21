@@ -1,0 +1,17 @@
+{
+  "name": "linkedin_msg_sender",
+  "version": "1.0.0",
+  "description": "Sends message with linkedIn Private API",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "tsc && node javascriptVersions/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "10.12.18",
+    "@types/puppeteer": "3.0.0",
+    "typescript": "3.2.4"
+  },
+  "dependencies": {
+    "puppeteer": "3.0.0"
+  }
+}

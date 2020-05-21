@@ -88,8 +88,8 @@ async function send_message_to_user(li_at:string,url:URL,msg:string){
 
 }
 
-let url = new URL('XXXXX')
-let li_at:string = 'XXXXXX'
+let url = new URL('url here')
+let li_at:string = 'put your li_at cookie value here'
 let msg:string = 'Hey I sent this message from my linkedin bot'
 
 send_message_to_user(li_at,url,msg)
